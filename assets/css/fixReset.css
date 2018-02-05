@@ -1,0 +1,21 @@
+h1{
+    font-size: 1.75em;
+    font-weight: bold;
+    margin: 20px 0px;
+    
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 20px 0px;
+}
+
+ul{
+    margin: 20px 0px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+
+}
