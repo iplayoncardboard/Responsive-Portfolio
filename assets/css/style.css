@@ -18,7 +18,7 @@ article {
     background-color: #ffffff; 
     border: solid 1px #dddddd;
     float: left;
-    padding: 0px 10px;
+    padding: 0px 10px 20px 10px;
     overflow: auto;
    
 }
@@ -84,7 +84,8 @@ h1{
     color: #ffffff;
     font-size: 1.75em;
     font-weight: bold;
-    margin: 20px 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     
 }
 
@@ -110,12 +111,16 @@ input::placeholder{
 
 input, textarea {
     display: block;
-    width: 100%;
+    width: 99%;
     border: 2px solid #eeeeee;
     color: #dddbdb;
     font-size: 16pt;
     border-radius: 5px;
     padding: 10px 2px;
+}
+
+textarea::placeholder{
+    color: #dddbdb;
 }
 
 nav{
@@ -248,9 +253,6 @@ textarea {
         float: none;
     }
 
-    h1 {
-        background-color: violet;
-    }
 
     .project{
         float: none;
@@ -291,9 +293,7 @@ textarea {
       
     }
    
-    h1{
-        background-color: red;
-    }
+   
 
     .area{
         width:auto;
@@ -338,7 +338,6 @@ textarea {
     }
    
     h1{
-        background-color: greenyellow;
         float: none;
         margin-top: 0;
     }
